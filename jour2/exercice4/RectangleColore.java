@@ -2,24 +2,20 @@ package jour2.exercice4;
 
 class RectangleColore extends Rectangle {
 
-    // Attribut supplémentaire,protected pour être accessible dans la classe fille
     protected int couleur;
 
-    // Constructeur : on reprend longueur et largeur du parent + on ajoute couleur
-    public RectangleColore(double longueur, double largeur, int couleur) {
-        super(longueur, largeur); //  appelle le constructeur de Rectangle
+    // Constructeur : centre (x, y) + dimensions + couleur
+    public RectangleColore(double x, double y, double longueur, double largeur, int couleur) {
+        super(x, y, longueur, largeur); // appelle le constructeur de Rectangle
         this.couleur = couleur;
     }
 
-    // Getter et Setter
+    @Override
+    public void affiche() {
+        super.affiche(); //  affiche centre + dimensions
+        System.out.println("Couleur : " + couleur);
+    }
+
     public int getCouleur() { return couleur; }
     public void setCouleur(int couleur) { this.couleur = couleur; }
-
-    // Affichage
-    public void affiche() {
-        System.out.println("Longueur : " + longueur);
-        System.out.println("Largeur : " + largeur);
-        System.out.println("Couleur : " + couleur);
-        System.out.println("Surface : " + surface());
-    }
 }
