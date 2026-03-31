@@ -17,7 +17,7 @@ public class Main {
         // Attributs privés → IMPOSSIBLE d'y accéder directement 
         // p.adresse = "10 rue de la Paix"; ← ERREUR de compilation !
 
-        // On passe obligatoirement par les setters ✅
+        // On passe obligatoirement par les setters 
         p.setAdresse("10 rue de la Paix");
         p.setTelephone("0612345678");
 
