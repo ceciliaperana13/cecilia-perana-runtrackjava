@@ -1,4 +1,4 @@
-package jour1.exercic2;
+package jour1.exercice2;
 
 public class job2 {
     //Écrire un programme java qui demande un prénom et qui répond « bonjour + prénom ».
