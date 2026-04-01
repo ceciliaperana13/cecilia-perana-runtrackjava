@@ -7,14 +7,14 @@ class Rectangle extends Figure {
 
     // Constructeur : centre (x, y) + dimensions
     public Rectangle(double x, double y, double longueur, double largeur) {
-        super(x, y); // 👈 appelle le constructeur de Figure
+        super(x, y); //  appelle le constructeur de Figure
         this.longueur = longueur;
         this.largeur = largeur;
     }
 
     @Override
     public void affiche() {
-        super.affiche(); // 👈 affiche le centre (méthode de Figure)
+        super.affiche(); //  affiche le centre (méthode de Figure)
         System.out.println("Longueur : " + longueur + " | Largeur : " + largeur);
     }
 
