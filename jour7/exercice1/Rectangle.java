@@ -10,7 +10,7 @@ class Rectangle {
     }
 
     public String toString() {
-        return "Rectangle [largeur=" + largeur + ", hauteur=" + hauteur + "]";
+        return "Rectangle :\n largeur = " + largeur + "\n hauteur = " + hauteur;
     }
 
     public boolean equals(Rectangle other) {

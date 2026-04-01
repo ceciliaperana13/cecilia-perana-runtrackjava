@@ -9,13 +9,13 @@ class RectangleColore extends Rectangle {
     }
 
     public String toString() {
-        return "RectangleColore [largeur=" + largeur + ", hauteur=" + hauteur + ", couleur=" + couleur + "]";
+        return "Rectangle :\n largeur = " + largeur + "\n hauteur = " + hauteur + "\n couleur = " + couleur;
     }
 
     public boolean equals(RectangleColore other) {
         if (other == null) return false;
-        return this.largeur == other.largeur 
-            && this.hauteur == other.hauteur 
+        return this.largeur == other.largeur
+            && this.hauteur == other.hauteur
             && this.couleur.equals(other.couleur);
     }
 }
