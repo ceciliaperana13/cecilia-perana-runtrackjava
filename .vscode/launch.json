@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BorderLayoutFX",
+            "request": "launch",
+            "mainClass": "jour5.exercice2.BorderLayoutFX",
+            "projectName": "cecilia-perana-runtrackjava_d9dc9fc0"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaFX",
+            "request": "launch",
+            "mainClass": "jour5.exercice1.HelloFX",
+            "runtimeVersion": "JavaSE-26",
+            "vmArgs": "--module-path \"C:/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

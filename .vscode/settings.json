@@ -2,5 +2,15 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.referencedLibraries": [
         "C:/javafx-sdk-25.0.2/lib/*.jar"
-    ]
+    ],
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-26",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-26",
+            "path": "C:\\Program Files\\Java\\jdk-26",
+            "default": true
+        }
+    ],
+    "jdk.jdkhome": "C:\\Program Files\\Java\\jdk-26",
+    "jdk.project.jdkhome": "C:\\Program Files\\Java\\jdk-26"
 }
