@@ -19,7 +19,7 @@ public class StyledFX extends Application {
         root.setStyle("-fx-background-color: #2b2b2b;");
 
         // Titre en haut
-        Label titre = new Label("✨ Mon Application");
+        Label titre = new Label("Mon Application");
         titre.setStyle("-fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold; -fx-padding: 15px;");
         root.setTop(titre);
         BorderPane.setAlignment(titre, Pos.CENTER);
