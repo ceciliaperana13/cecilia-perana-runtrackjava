@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StyledFX",
+            "request": "launch",
+            "mainClass": "jour5.exercice4.StyledFX",
+            "projectName": "cecilia-perana-runtrackjava_d9dc9fc0"
+        },
+        {
+            "type": "java",
             "name": "BorderLayoutFX",
             "request": "launch",
             "mainClass": "jour5.exercice2.BorderLayoutFX",
